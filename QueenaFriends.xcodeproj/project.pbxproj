@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1868C9CF1FA5FDB5005CE56D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1868C9CE1FA5FB11005CE56D /* Assets.xcassets */; };
+		18D8D6101FB68B8000F9A8E1 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8D60F1FB68B8000F9A8E1 /* MyTabBarController.swift */; };
+		18D8D6121FB68CEC00F9A8E1 /* JamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8D6111FB68CEC00F9A8E1 /* JamesViewController.swift */; };
+		18D8D6141FB6B8E100F9A8E1 /* JamesHalloweenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8D6131FB6B8E100F9A8E1 /* JamesHalloweenViewController.swift */; };
+		18D8D6161FB6C89A00F9A8E1 /* PigVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8D6151FB6C89A00F9A8E1 /* PigVideoViewController.swift */; };
+		18D8D6181FB6CB0400F9A8E1 /* Monkey5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8D6171FB6CB0400F9A8E1 /* Monkey5ViewController.swift */; };
 		18F02F151FA55DED00C747ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F02F141FA55DED00C747ED /* AppDelegate.swift */; };
 		18F02F171FA55DED00C747ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F02F161FA55DED00C747ED /* ViewController.swift */; };
 		18F02F1A1FA55DED00C747ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F02F181FA55DED00C747ED /* Main.storyboard */; };
@@ -16,6 +21,11 @@
 
 /* Begin PBXFileReference section */
 		1868C9CE1FA5FB11005CE56D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D8D60F1FB68B8000F9A8E1 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		18D8D6111FB68CEC00F9A8E1 /* JamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamesViewController.swift; sourceTree = "<group>"; };
+		18D8D6131FB6B8E100F9A8E1 /* JamesHalloweenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamesHalloweenViewController.swift; sourceTree = "<group>"; };
+		18D8D6151FB6C89A00F9A8E1 /* PigVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigVideoViewController.swift; sourceTree = "<group>"; };
+		18D8D6171FB6CB0400F9A8E1 /* Monkey5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monkey5ViewController.swift; sourceTree = "<group>"; };
 		18F02F111FA55DEC00C747ED /* QueenaFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QueenaFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F02F141FA55DED00C747ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F02F161FA55DED00C747ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,8 +68,13 @@
 				18F02F141FA55DED00C747ED /* AppDelegate.swift */,
 				18F02F161FA55DED00C747ED /* ViewController.swift */,
 				18F02F181FA55DED00C747ED /* Main.storyboard */,
+				18D8D6111FB68CEC00F9A8E1 /* JamesViewController.swift */,
+				18D8D6151FB6C89A00F9A8E1 /* PigVideoViewController.swift */,
+				18D8D60F1FB68B8000F9A8E1 /* MyTabBarController.swift */,
 				18F02F1D1FA55DED00C747ED /* LaunchScreen.storyboard */,
 				18F02F201FA55DED00C747ED /* Info.plist */,
+				18D8D6131FB6B8E100F9A8E1 /* JamesHalloweenViewController.swift */,
+				18D8D6171FB6CB0400F9A8E1 /* Monkey5ViewController.swift */,
 			);
 			path = QueenaFriends;
 			sourceTree = "<group>";
@@ -138,6 +153,11 @@
 			files = (
 				18F02F171FA55DED00C747ED /* ViewController.swift in Sources */,
 				18F02F151FA55DED00C747ED /* AppDelegate.swift in Sources */,
+				18D8D6121FB68CEC00F9A8E1 /* JamesViewController.swift in Sources */,
+				18D8D6161FB6C89A00F9A8E1 /* PigVideoViewController.swift in Sources */,
+				18D8D6101FB68B8000F9A8E1 /* MyTabBarController.swift in Sources */,
+				18D8D6141FB6B8E100F9A8E1 /* JamesHalloweenViewController.swift in Sources */,
+				18D8D6181FB6CB0400F9A8E1 /* Monkey5ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LX7V9KZM5W;
 				INFOPLIST_FILE = QueenaFriends/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kobe.QueenaFriends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LX7V9KZM5W;
 				INFOPLIST_FILE = QueenaFriends/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kobe.QueenaFriends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
